@@ -35,7 +35,12 @@
         height="1" 
         depth="1" 
         material="src: #wood2"
-        shadow>  
+        shadow
+       animation="property: rotation; 
+             to: -120 1360 180; 
+             dur: 3000; 
+             easing: linear; 
+             loop: true">  
       </a-box>
       <a-plane id="ground"
         position="0 0 -4" 
@@ -44,12 +49,7 @@
         height="100" 
         color="#7BC8A4" 
         material="src: #grass; repeat: 10 10"
-        shadow
-         animation="property: rotation; 
-                   to: -120 1360 180; 
-                   dur: 3000; 
-                   easing: linear; 
-                   loop: true" >
+        shadow >
       </a-plane> 
     </a-scene>
   </body>
